@@ -17,7 +17,6 @@
   display: flex;
   justify-content: space-between;
   width: 1000px;
-  flex-shrink: 1;
 }
 
 .logo {
