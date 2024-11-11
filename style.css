@@ -4,16 +4,17 @@
   padding: 0;
 }
 
-.header-background, .hero-background {
+.header-background,
+.hero-background {
   background-color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 64px;
 }
 
 .header-background {
   height: 64px;
-  padding: 0 64px;
 }
 
 .header-container {
@@ -40,13 +41,14 @@ a {
 }
 
 .hero-background {
-  padding: 0 64px;
   height: 400px;
 }
 
 .hero-container {
   display: flex;
   width: 1000px;
+  justify-content: space-between;
+  align-items: center;
   gap: 32px;
 }
 
@@ -63,7 +65,7 @@ a {
 
 .hero-left,
 .hero-image {
-  width: 500px;
+  flex-basis: 480px;
 }
 
 .hero-image{
