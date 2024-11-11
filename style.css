@@ -4,16 +4,15 @@
   padding: 0;
 }
 
-.top-container {
+.header-background {
   background-color: #1F2937;
   display: flex;
-  flex-direction: column;
-  height: 600px;
+  justify-content: center;
+  height: 64px;
   align-items: center;
-  padding-top: 24px;
 }
 
-.header, .hero-container {
+.header-container {
   display: flex;
   justify-content: space-between;
   width: 1000px;
