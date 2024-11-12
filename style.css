@@ -91,12 +91,12 @@ a {
 }
 
 .card {
-  width: 200px;
+  width: 160px;
 }
 
 .card-image {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 16px;
   box-sizing: border-box;
@@ -106,4 +106,24 @@ a {
 .card-subtext {
   text-align: center;
   color: rgb(54, 62, 70);
+}
+
+.quote-background {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.quote-main-text {
+  width: 720px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-source {
+  font-weight: bold;
+  text-align: right;
 }
