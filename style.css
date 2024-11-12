@@ -130,3 +130,40 @@ a {
   font-weight: bold;
   text-align: right;
 }
+
+.call-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
+}
+
+.call-banner {
+  background-color: #3882F6;
+  box-sizing: border-box;
+  width: 1000px;
+  padding: 40px 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-main-text,
+.call-subtext {
+  color: #F9FAF8;
+}
+
+.call-main-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.call-button {
+  border: #F9FAF8 solid 2px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
