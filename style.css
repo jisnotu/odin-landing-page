@@ -115,8 +115,11 @@ a {
   padding: 100px 0;
 }
 
-.quote-main-text {
+.quote-container {
   width: 720px;
+}
+
+.quote-main-text {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
