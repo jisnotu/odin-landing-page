@@ -40,16 +40,13 @@ a {
   text-decoration: none;
 }
 
-.hero-background {
-  height: 400px;
-}
-
 .hero-container {
+  background-color: #1F2937;
   display: flex;
-  width: 1000px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 32px;
+  padding: 128px 0;
 }
 
 .hero-main-text {
@@ -65,7 +62,7 @@ a {
 
 .hero-left,
 .hero-image {
-  flex-basis: 480px;
+  width: 480px;
 }
 
 .hero-image{
